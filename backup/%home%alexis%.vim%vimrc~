@@ -110,6 +110,9 @@
 "" enable utf-8 encoding
     set encoding=utf-8
 
+"" set md files as markdown
+"    au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
 "" set spellcheck
     autocmd FileType pandoc setlocal nospell
     set nospell
