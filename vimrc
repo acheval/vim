@@ -1,6 +1,6 @@
 " Plugins{{{
 "" enable pathogen package manager
-        execute pathogen#infect()
+    execute pathogen#infect()
     call pathogen#helptags()
     filetype plugin indent on
 
