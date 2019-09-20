@@ -1,4 +1,4 @@
-# Synchronizing plugins with git submodules and pathogen {#synchronizing-plugins-with-git-submodules-and-pathogen .title}
+# Synchronizing plugins with git submodules and pathogen
 
 ## Keep your dotfiles in git
 
