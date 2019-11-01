@@ -24,3 +24,6 @@ ignore = dirty
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "bundle/vim-ansible"]
+	path = bundle/vim-ansible
+	url = https://github.com/pearofducks/ansible-vim
