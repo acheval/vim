@@ -132,6 +132,12 @@
     nnoremap g* g*zz
     nnoremap g# g#zz
 
+"" Auto close parenthesis, brackets et al.
+    inoremap ( ()<Esc>i
+    inoremap { {}<Esc>i
+    inoremap [ []<Esc>i
+    inoremap ' ''<Esc>i
+    inoremap " ""<Esc>i
 "}}}
 
 " Search{{{
