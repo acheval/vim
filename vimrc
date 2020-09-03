@@ -43,19 +43,23 @@
 "" enable syntax highlighting
         syntax enable
 
+"" forces txt files with pandoc highlight
+        autocmd BufNewFile,BufRead *.txt set syntax=pandoc
+        autocmd BufNewFile,BufRead *.txt set filetype=pandoc
+
 "" enable cursorline and cursor column
-    set cursorline
-    "set cursorcolumn
+        set cursorline
+        set cursorcolumn
 
 "" enable hybrid line numbering
         set number relativenumber
 
 "" enable auto relativenumber/number
-    augroup numbertoggle
-      autocmd!
-      autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
-      autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
-    augroup END
+        augroup numbertoggle
+          autocmd!
+          autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+          autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+        augroup END
 
 "" enable graphical autocompletion for files
     set wildmenu
@@ -115,6 +119,9 @@
     set nospell
     set spelllang=en
     "set spellfile=~/.vim/spell/en/.utf-8.spl
+
+"" disable octal numbering
+    set nrformats-=octals
 
 "}}}
 
