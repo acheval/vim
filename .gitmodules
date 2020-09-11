@@ -27,3 +27,6 @@ ignore = dirty
 [submodule "bundle/vim-ansible"]
 	path = bundle/vim-ansible
 	url = https://github.com/pearofducks/ansible-vim
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
