@@ -30,12 +30,3 @@ ignore = dirty
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "vim-css-color"]
-	path = vim-css-color
-	url = https://github.com/ap/vim-css-color.git
-[submodule "bundle/vim-css-color"]
-	path = bundle/vim-css-color
-	url = https://github.com/ap/vim-css-color.git
-[submodule "bundle/vim-hexokinase"]
-	path = bundle/vim-hexokinase
-	url = https://github.com/RRethy/vim-hexokinase.git
