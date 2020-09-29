@@ -145,6 +145,17 @@ of each plugin bundle, run the following:
 git submodule foreach git pull origin master
 ```
 
+### Removing plugins
+
+To remove unneeded plugins :
+
+``` {.highligh .plaintext}
+git submodule deinit <path_to_submodule>
+git rm <path_to_submodule>
+git commit-m "Removed submodule "
+rm -rf .git/modules/<path_to_submodule>
+```
+
 ### Further reading
 
 -   [github](http://github.com/) - free git hosting for open source
