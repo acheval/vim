@@ -160,6 +160,9 @@
 "" Override ignorecase if pattern contains upcase
     set smartcase
 
+"" Enable wrap search
+    set wrapscan
+
 "}}}
 
 " Backup, Swap and Undo{{{
