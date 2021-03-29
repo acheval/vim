@@ -177,11 +177,12 @@
 
 "}}}
 
+
 " Python and Powerline{{{
-""" enable python3 and powerline from python3 package
-""    let g:powerline_pycmd="py3"
+"" enable python3 and powerline from python3 package
+    let g:powerline_pycmd="py3"
 ""    let g:powerline_pyeval="py3eval"
-""    let $PYTHONPATH='/usr/bin/python3'
+    let $PYTHONPATH='/usr/bin/python3'
 ""    python3 from powerline.vim import setup as powerline_setup
 ""    python3 powerline_setup()
 ""    python3 del powerline_setup
@@ -191,7 +192,6 @@
     set laststatus=2
     let g:Powerline_symbols = 'fancy'
 ""}}}
-
 " Sourcing {{{ 
 " "Source the .vimrc file after saving
     autocmd! bufwritepost ~/.vimrc source %
