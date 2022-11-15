@@ -38,7 +38,8 @@ if &t_Co > 255
       hi Normal       ctermfg=252 ctermbg=233
       hi CursorLine               ctermbg=237   cterm=none
       hi CursorLineNr ctermfg=208               cterm=none
-      hi CursorColumn ctermfg=235               cterm=none
+      hi CursorColumn ctermfg=White             cterm=none
+      hi CursorColumn ctermfg=Black             cterm=none
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
@@ -122,6 +123,8 @@ if &t_Co > 255
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=240
+   hi CursorColumn    ctermfg=White             cterm=none
+   hi CursorColumn    ctermfg=Black             cterm=none
    hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=236
    hi NonText         ctermfg=59
